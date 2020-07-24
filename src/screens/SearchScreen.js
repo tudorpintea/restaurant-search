@@ -22,7 +22,7 @@ const SearchScreen = () => {
         });
         setResults(response.data.businesses)
     } catch (err) {
-         setErrorMessage('Something went wrong')
+         setErrorMessage('Something wentt wrong')
     };
 }
     //call searchApi when component is first rendered
